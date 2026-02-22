@@ -328,10 +328,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## Authors
-
-Development Team
-
----
-
-**Built with ❤️ for developers and learners**
