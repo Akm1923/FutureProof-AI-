@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>12-Week Learning Roadmap | FutureProof AI</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#195de6",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#0f1115",
+                        "surface-dark": "#1e222b",
+                        "border-dark": "#2d3442",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Manrope', sans-serif; }
+        .timeline-rail::before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, #195de6 35%, #2d3442 35%);
+        }
+        .notion-card {
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+        .notion-card:hover {
+            background-color: #262b36;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen">
+<!-- Top Navigation -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-border-dark bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3">
+<div class="bg-primary p-1.5 rounded-lg">
+<span class="material-symbols-outlined text-white text-2xl leading-none">terminal</span>
+</div>
+<h2 class="text-xl font-bold tracking-tight">FutureProof AI</h2>
+</div>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-medium text-slate-500 hover:text-primary transition-colors" href="#">Dashboard</a>
+<a class="text-sm font-semibold text-primary border-b-2 border-primary py-5" href="#">Roadmap</a>
+<a class="text-sm font-medium text-slate-500 hover:text-primary transition-colors" href="#">Skill Gaps</a>
+<a class="text-sm font-medium text-slate-500 hover:text-primary transition-colors" href="#">Resources</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 text-slate-500 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<div class="h-8 w-8 rounded-full bg-primary/20 border border-primary/30 overflow-hidden">
+<img alt="User Avatar" data-alt="User profile avatar icon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDr_FBYebrPUZWHgz3g8OvdpiltfT7UJG_tQZwlrMSr4Vyf_-J_1zQFzdzT63SAlpzDixlf77XqJqOTmWLQVnLPjjwrcJBxlidmDnoQK-PmGgZnjYJT26S0QdyCbZYCcNXWOrv7S8Pq7m0yOqpx2DxIQ1IMQzILBPbxqGMeh2ubg1bsGgRmMO5_UVn5CHPldPS7P8qGtoCZ3PO0HNaqd37lIetyJExfzld6Zx8Y5k-kYdXTBryJexTu7FTKwapBA7rJyGLRRq_6TAo"/>
+</div>
+</div>
+</div>
+</header>
+<main class="max-w-5xl mx-auto px-4 py-8">
+<!-- Summary Dashboard Card -->
+<section class="bg-white dark:bg-surface-dark rounded-xl border border-slate-200 dark:border-border-dark p-6 mb-12 shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+<div class="flex-1">
+<div class="flex items-center gap-3 mb-2">
+<span class="px-2.5 py-1 rounded bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider">Active Path</span>
+<h1 class="text-2xl font-extrabold">12-Week AI Mastery Roadmap</h1>
+</div>
+<p class="text-slate-500 dark:text-slate-400 max-w-lg">Your personalized journey to mastering AI risk management, tool integration, and high-value career positioning.</p>
+</div>
+<div class="flex flex-col items-end gap-4 min-w-[240px]">
+<div class="w-full">
+<div class="flex justify-between items-end mb-2">
+<span class="text-sm font-medium text-slate-400">Overall Progress</span>
+<span class="text-2xl font-black text-primary">35%</span>
+</div>
+<div class="h-3 w-full bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full transition-all duration-1000" style="width: 35%;"></div>
+</div>
+</div>
+<button class="flex items-center gap-2 px-4 py-2 bg-primary hover:bg-primary/90 text-white rounded-lg font-bold text-sm transition-all">
+<span class="material-symbols-outlined text-lg">autorenew</span>
+                        Regenerate Roadmap
+                    </button>
+</div>
+</div>
+</section>
+<!-- Timeline Content -->
+<div class="relative timeline-rail pl-12 space-y-8">
+<!-- Phase 1 Header -->
+<div class="relative">
+<div class="absolute -left-12 top-0 translate-y-1/4 h-8 w-8 rounded-full bg-primary border-4 border-background-dark flex items-center justify-center z-10">
+<span class="material-symbols-outlined text-white text-xs">done</span>
+</div>
+<h3 class="text-lg font-bold text-primary mb-1">Phase 1: Foundations</h3>
+<p class="text-sm text-slate-500">Mastering the fundamentals of AI literacy and prompting.</p>
+</div>
+<!-- Week 1 - Completed -->
+<div class="notion-card bg-white dark:bg-surface-dark border border-slate-200 dark:border-border-dark rounded-xl p-5 shadow-sm">
+<div class="flex items-start justify-between mb-4">
+<div class="flex items-center gap-3">
+<div class="flex items-center justify-center w-8 h-8 rounded bg-green-500/10 text-green-500">
+<span class="material-symbols-outlined text-xl">check_circle</span>
+</div>
+<div>
+<h4 class="font-bold">Week 1: AI Literacy &amp; Ecosystem</h4>
+<p class="text-xs text-slate-400">Completed on Oct 12, 2023</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-400 cursor-pointer">expand_less</span>
+</div>
+<div class="space-y-3 opacity-60">
+<div class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary">check_box</span>
+<span class="line-through">LLM architectures and transformer models overview</span>
+</div>
+<div class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary">check_box</span>
+<span class="line-through">Ethics and Bias in generative AI models</span>
+</div>
+</div>
+</div>
+<!-- Week 4 - Active -->
+<div class="notion-card bg-white dark:bg-surface-dark border-2 border-primary rounded-xl p-5 shadow-md">
+<div class="flex items-start justify-between mb-6">
+<div class="flex items-center gap-3">
+<div class="flex items-center justify-center w-8 h-8 rounded bg-primary text-white">
+<span class="text-sm font-bold tracking-tighter">W4</span>
+</div>
+<div>
+<h4 class="font-bold text-lg">Week 4: Advanced Prompt Engineering</h4>
+<p class="text-xs text-primary font-medium">In Progress • 2 of 4 tasks finished</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-400 cursor-pointer">expand_less</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Tasks -->
+<div class="space-y-4">
+<h5 class="text-xs font-bold uppercase text-slate-400 tracking-widest">Milestones</h5>
+<div class="space-y-3">
+<div class="group flex items-center gap-3 text-sm cursor-pointer hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-primary">check_box</span>
+<span>Mastering Chain-of-Thought prompting</span>
+</div>
+<div class="group flex items-center gap-3 text-sm cursor-pointer hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-primary">check_box</span>
+<span>Zero-shot vs Few-shot optimization</span>
+</div>
+<div class="group flex items-center gap-3 text-sm cursor-pointer hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-slate-500 group-hover:text-primary">check_box_outline_blank</span>
+<span>Dynamic prompting with Python scripts</span>
+</div>
+<div class="group flex items-center gap-3 text-sm cursor-pointer hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-slate-500 group-hover:text-primary">check_box_outline_blank</span>
+<span>Week 4 Knowledge Assessment</span>
+</div>
+</div>
+</div>
+<!-- Resources -->
+<div class="space-y-4">
+<h5 class="text-xs font-bold uppercase text-slate-400 tracking-widest">Curated Resources</h5>
+<div class="space-y-2">
+<a class="flex items-center gap-3 p-3 rounded-lg border border-slate-200 dark:border-border-dark bg-slate-50 dark:bg-slate-800/50 hover:border-primary transition-all" href="#">
+<div class="bg-blue-600 w-8 h-8 rounded flex items-center justify-center text-white font-bold text-[10px]">C</div>
+<div class="flex-1 overflow-hidden">
+<p class="text-sm font-semibold truncate">Prompt Eng. Specialization</p>
+<p class="text-[10px] text-slate-400">Coursera • 4.5 hours</p>
+</div>
+<span class="material-symbols-outlined text-slate-500 text-sm">open_in_new</span>
+</a>
+<a class="flex items-center gap-3 p-3 rounded-lg border border-slate-200 dark:border-border-dark bg-slate-50 dark:bg-slate-800/50 hover:border-primary transition-all" href="#">
+<div class="bg-slate-900 w-8 h-8 rounded flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-sm">code</span>
+</div>
+<div class="flex-1 overflow-hidden">
+<p class="text-sm font-semibold truncate">Prompt Benchmarking Tool</p>
+<p class="text-[10px] text-slate-400">GitHub Repository</p>
+</div>
+<span class="material-symbols-outlined text-slate-500 text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Phase 2 Header -->
+<div class="relative pt-4">
+<div class="absolute -left-12 top-0 translate-y-3/4 h-8 w-8 rounded-full bg-slate-800 border-4 border-background-dark flex items-center justify-center z-10">
+<span class="material-symbols-outlined text-slate-500 text-xs">lock</span>
+</div>
+<h3 class="text-lg font-bold text-slate-400 mb-1">Phase 2: Technical Deep Dive</h3>
+<p class="text-sm text-slate-600">Tool integration, automation, and workflow orchestration.</p>
+</div>
+<!-- Week 5 - Locked -->
+<div class="notion-card bg-white/50 dark:bg-surface-dark/50 border border-slate-200/50 dark:border-border-dark/50 rounded-xl p-5 cursor-not-allowed">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3 opacity-50">
+<div class="flex items-center justify-center w-8 h-8 rounded bg-slate-200 dark:bg-slate-800 text-slate-500">
+<span class="text-sm font-bold tracking-tighter">W5</span>
+</div>
+<div>
+<h4 class="font-bold">Week 5: AI Tools for Business Automation</h4>
+<p class="text-xs text-slate-500">Locked until Phase 1 completion</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-600">lock</span>
+</div>
+</div>
+<!-- Week 6 - Locked -->
+<div class="notion-card bg-white/50 dark:bg-surface-dark/50 border border-slate-200/50 dark:border-border-dark/50 rounded-xl p-5 cursor-not-allowed">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3 opacity-50">
+<div class="flex items-center justify-center w-8 h-8 rounded bg-slate-200 dark:bg-slate-800 text-slate-500">
+<span class="text-sm font-bold tracking-tighter">W6</span>
+</div>
+<div>
+<h4 class="font-bold">Week 6: Developing Custom AI Agents</h4>
+<p class="text-xs text-slate-500">Locked</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-600">lock</span>
+</div>
+</div>
+<!-- Footer Spacing -->
+<div class="h-12"></div>
+</div>
+</main>
+<!-- Bottom Action Bar (Floating) -->
+<div class="fixed bottom-6 left-1/2 -translate-x-1/2 w-full max-w-md px-4">
+<div class="bg-slate-900/90 border border-border-dark backdrop-blur-lg rounded-2xl p-4 shadow-2xl flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="h-10 w-10 rounded-full border-2 border-primary border-t-transparent animate-spin flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-sm">psychology</span>
+</div>
+<div>
+<p class="text-xs text-slate-400 font-medium">Next Milestone</p>
+<p class="text-sm font-bold">Dynamic Prompting</p>
+</div>
+</div>
+<button class="bg-primary px-4 py-2 rounded-lg text-sm font-bold hover:bg-primary/90 transition-all">
+                Continue
+            </button>
+</div>
+</div>
+</body></html>

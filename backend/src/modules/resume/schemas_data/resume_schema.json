@@ -1,0 +1,72 @@
+{
+  "user_profile": {
+    "name": "",
+    "current_role": "",
+    "experience_years": 0,
+    "career_stage": "student | beginner | intermediate | advanced"
+  },
+
+  "education": [
+    {
+      "degree": "",
+      "field_of_study": "",
+      "level": "diploma | bachelors | masters | other"
+    }
+  ],
+
+  "experience_domains": [
+    "logistics",
+    "data science",
+    "software development"
+  ],
+
+  "skills": {
+    "technical": [],
+    "tools": [],
+    "domain": [],
+    "soft": []
+  },
+
+  "projects_or_work_signals": [
+    {
+      "title": "",
+      "domain": "",
+      "skills_demonstrated": []
+    }
+  ],
+
+  "certifications_courses": [
+    {
+      "name": "",
+      "domain": ""
+    }
+  ],
+
+  "achievements_signals": [
+    {
+      "type": "performance | leadership | optimization",
+      "description": ""
+    }
+  ],
+
+  "languages": [],
+
+  "learning_indicators": {
+    "has_certifications": true,
+    "has_quantified_impact": true,
+    "continuous_learning_score": 0
+  },
+
+  "ai_inferred": {
+    "primary_domain": "",
+    "secondary_domains": [],
+    "skill_level_estimate": "beginner | intermediate | advanced",
+    "strength_areas": [],
+    "probable_skill_gaps": []
+  },
+
+  "career_goal": {
+    "target_role": "",
+    "target_domain": ""
+  }
+}
